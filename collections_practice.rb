@@ -19,7 +19,7 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker(array, index)
-  index[2] = "$"
+def kesha_maker(array)
+  [2] = "$"
   array
 end
