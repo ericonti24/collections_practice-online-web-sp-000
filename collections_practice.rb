@@ -20,6 +20,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  [2] = "$"
-  array
+  array.each do |iten|
+    item[2] = "$"
+  end
 end
